@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html leng="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cylinder volume</title> 
+    </head>
+    <body>
+        <script>
+            alert ("Formula for calculating the cylinder volume is V = r(squared) * H * Pi The value of Pi is ~ 3.14");
+            alert ("To calculate the cylinder volume please enter the folowing values")
+            var radiusr = prompt("For radius (r):");
+            var hightH = prompt("For hight (H):");
+            const Pi = 3.14;
+            var volumeV = parseInt(radiusr) * radiusr * parseInt(hightH) * Pi;
+            alert ("Calculated cylinder volume is: " + volumeV)
+            /* Za prikaz na stranici, odnosno u samom HTML dokumentu
+            document.write("Calculated cylinder volume is:" + volumeV);*/
+            /*Za prokaz unutar konzole web browsera
+            console.log("Calculated cylinder volume is:" + volumeV);*/
+        </script>
+
+    </body>
+</html>
